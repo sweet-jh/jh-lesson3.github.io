@@ -1,0 +1,551 @@
+/* line 5, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f3f1;
+}
+
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+.search {
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
+.search input[type="text"] {
+  font-size: 1em;
+  color: #fff;
+  padding: 1.3em 1em 1.3em 1.5em;
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+  background: rgba(230, 230, 230, 0.6);
+  border: none;
+  outline: none;
+}
+
+.search input[type="submit"] {
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  padding: 1.3em 0.5em;
+  width: 22%;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  margin: 0 0 0 -4px;
+  border: none;
+  outline: none;
+  background-color: #67ddab;
+}
+
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+
+input:-ms-input-placeholder {
+  color: #fff;
+}
+
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+.banner {
+  background: url(../images/sunset-resized.jpg) no-repeat;
+  background-size: cover;
+}
+
+.banner .wrap {
+  position: relative;
+}
+
+.banner .wrap .topnav {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.banner .wrap .topnav nav {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  padding: 2.9em 0em;
+}
+
+.banner .wrap .topnav nav ul {
+  list-style: none;
+}
+
+.banner .wrap .topnav nav ul li {
+  display: block;
+  float: left;
+  margin: 0em 0.5em;
+}
+
+.banner .wrap .topnav nav ul li a {
+  display: block;
+  font-size: 1em;
+  color: #fff;
+  padding: 0.7em 1em;
+  font-weight: 400;
+}
+
+.banner .wrap .topnav nav ul li.active {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.banner .wrap .topnav h1 {
+  float: left;
+  padding: 2.2em;
+}
+
+.banner .wrap .topnav h1 a {
+  padding: 1px 7px;
+  display: block;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.banner .wrap .contaner .banner-content {
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+}
+/* line 111, ../sass/style.scss */
+.banner .wrap .contaner .banner-content .info {
+  padding: 4em 0 1em;
+}
+
+.banner .wrap .contaner .banner-content .info h2 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.banner .wrap .contaner .banner-content .info p {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.banner .wrap .data-info {
+  position: absolute;
+  bottom: -65px;
+  width: 100%;
+  background-color: #f4f3f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.banner .wrap .data-info .col-4 {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.banner .wrap .data-info .col-4 .data-info-grid {
+  padding: 2em 0;
+  border-right: 1px solid #ddd;
+}
+
+.banner .wrap .data-info .col-4 .data-info-grid h3 {
+  color: #444;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0.5em 0;
+}
+
+.banner .wrap .data-info .col-4 .data-info-grid p {
+  color: #999;
+  font-size: 0.6em;
+  margin: 0.5em 0;
+}
+
+.banner .wrap .data-info .col-4 .last-one {
+  border-right: none;
+}
+
+
+.content {
+  margin-top: 150px;
+  padding-bottom: 120px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content .wrap {
+  text-align: center;
+}
+
+.content .wrap .title {
+  margin: 1em 0;
+}
+
+.content .wrap .title h3 {
+  color: #444;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.content .wrap .title span {
+  padding: 0 20px;
+  border-bottom: 3px solid #ddd;
+}
+
+.content .wrap .connect-line {
+  margin: 6em auto -40px;
+  border-bottom: 1px solid #ddd;
+  width: 66.66%;
+}
+
+.content .wrap .works-info .col-3 {
+  width: 33.33%;
+  float: left;
+  position: relative;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.content .wrap .works-info .col-3 span {
+  display: block;
+}
+
+.content .wrap .works-info .col-3 .serial-number {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #999;
+  line-height: 40px;
+  width: 40px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.content .wrap .works-info .col-3 h3 {
+  color: #444;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.content .wrap .works-info .col-3 p {
+  color: #999;
+}
+
+.content .wrap .choose-us-info {
+  margin-top: 6em;
+}
+
+.content .wrap .choose-us-info .col-2 {
+  width: 50%;
+  float: left;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.content .wrap .choose-us-info .col-2 .row {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.content .wrap .choose-us-info .col-2 .row span {
+  display: block;
+  float: left;
+  width: 15%;
+  margin-top: -5px;
+}
+
+.content .wrap .choose-us-info .col-2 .row .desc {
+  float: left;
+  width: 85%;
+}
+
+.content .wrap .choose-us-info .col-2 .row .desc h3 {
+  color: #444;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.content .wrap .choose-us-info .col-2 .row .desc p {
+  color: #999;
+}
+
+
+.feedbacks {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 120px;
+}
+
+.feedbacks .switch {
+  width: 40%;
+  margin: 0 auto 50px;
+}
+
+.feedbacks .switch span {
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 1em 0;
+  font-weight: 600;
+  font-size: 1.2em;
+  border: 2px solid #606779;
+  box-sizing: border-box;
+}
+
+.feedbacks .switch .testimonials-button {
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  background-color: #606779;
+  color: #fff;
+}
+
+.feedbacks .switch .feedback-button {
+  border-radius: 0 5px 5px 0;
+  color: #606779;
+}
+
+.feedbacks .desc {
+  margin-bottom: 100px;
+}
+
+.feedbacks .desc .quotation {
+  font-size: 5em;
+  color: #ccc;
+}
+
+.feedbacks .desc .comment {
+  margin-top: -1em;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  font-weight: 600;
+  color: #999;
+}
+
+.feedbacks .user-list {
+  width: 40%;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.feedbacks .user-list .avatar {
+  width: 33.33%;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.feedbacks .user-list .avatar span {
+  display: block;
+  width: 100px;
+}
+
+.feedbacks .user-list .avatar span img {
+  width: 100%;
+  border-radius: 50px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.feedbacks .user-list .avatar .left {
+  float: left;
+}
+
+.feedbacks .user-list .avatar .center {
+  margin: 0 auto;
+}
+
+.feedbacks .user-list .avatar .right {
+  float: right;
+}
+
+
+.bottom {
+  padding: 1px;
+  background: url(../images/sunset-resized.jpg) 0 center no-repeat;
+  background-size: cover;
+}
+
+.bottom .wrap .search {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.bottom .wrap .search span {
+  display: block;
+  width: 25%;
+  float: left;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2.4em;
+  padding-right: 10px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.bottom .wrap .search form {
+  display: block;
+  width: 75%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.bottom .wrap .search form input[type="text"] {
+  background-color: #fff;
+}
+
+.bottom .wrap .search form :-moz-placeholder {
+  color: #eee;
+}
+
+.bottom .wrap .search form ::-moz-placeholder {
+  color: #eee;
+}
+
+.bottom .wrap .search form input:-ms-input-placeholder {
+  color: #eee;
+}
+
+.bottom .wrap .search form input::-webkit-input-placeholder {
+  color: #eee;
+}
+
+
+.foot {
+  padding: 1px;
+}
+
+.foot .wrap {
+  margin: 20px auto;
+}
+
+.foot .wrap .foot-nav {
+  width: 70%;
+  float: left;
+}
+
+.foot .wrap .foot-nav nav ul {
+  list-style: none;
+}
+
+.foot .wrap .foot-nav nav ul li {
+  display: block;
+  float: left;
+  margin: 0 0.2em;
+  padding: 1em;
+}
+
+.foot .wrap .foot-nav nav ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #999;
+}
+
+.foot .wrap .social {
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+
+.foot .wrap .social img {
+  margin: 0.5em;
+}
